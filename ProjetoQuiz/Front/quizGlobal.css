@@ -1,0 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.quiz-container {
+    position: relative; /* Make the quiz container a relative container */
+  }
