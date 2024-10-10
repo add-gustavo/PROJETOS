@@ -1,0 +1,70 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F8F3EA;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    background-color: rgb(25, 73, 104);
+    padding: 20px 0;
+}
+
+section {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.ordem-header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+          "titulo"
+          "ordem-template";
+    gap: 20px;
+}
+.ordem-template{
+    grid-area: ordem-template;
+}
+.group-informacoes{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+}
+.group-chales{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px; 
+    width: 90%;
+}
+.align{
+    display: grid;
+    place-items: center;   
+}
+.align-text{
+    text-align: center;
+}
+.box-header{
+    background-color: rgb(186, 196, 187);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+fieldset{
+    border:none;
+    border-radius: 10px;
+    width: 90%
+}
+.group-itens{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    border-bottom: 2px solid #878383;
+    padding: 20px;
+}
+.texto{
+    text-align: justify;
+    width: 90%;
+}
