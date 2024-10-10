@@ -23,7 +23,7 @@
 .text-verde {
     grid-area: agre-disagree;
     justify-self: start;
-  }
+}
 .text-roxo {
     grid-area: agre-disagree;
     justify-self: end;

@@ -36,6 +36,28 @@ section {
     border-radius: 10px;
     padding: 10px;
     text-align: justify;
+    cursor:default;
+    transition: all 0.5 ease;
+}
+.box-header:hover{
+    background-color: rgb(149, 169, 219);
+    transform: scale(1.10);
+    margin: 4px
+
+}
+h1{
+    font-family: Windlass;
+    background: linear-gradient(to top, #515050, #a7a5a5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    filter:brightness(170%);
+    cursor:default;
+    transition: all 0.3s ease;
+}
+h1:hover{
+    transform: scale(1.05);
 }
 form{
     width: 80%;
