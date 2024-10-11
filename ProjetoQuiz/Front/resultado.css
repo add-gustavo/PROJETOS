@@ -51,6 +51,8 @@ section {
     border-radius: 10px;
     padding: 10px;
     text-align: justify;
+    cursor: default;
+    transition: all 0.5 ease;
 }
 .box-header:hover{
     background-color: rgb(149, 169, 219);
