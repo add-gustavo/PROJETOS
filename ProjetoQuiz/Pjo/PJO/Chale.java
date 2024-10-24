@@ -1,29 +1,24 @@
 
+import java.util.List;
+
 public class Chale {
     private String deus;
     private String descricao;
+    private List<Pergunta> respostas;
     private int resultado;
 
-    public Chale(String deus, String descricao, int resultado) {
+    public Chale(String deus, String descricao, List<Pergunta> respostas) {
         this.deus = deus;
         this.descricao = descricao;
-        this.resultado = resultado;
+        this.respostas = respostas;
     }
 
     public String getDeus() {
         return deus;
     }
 
-    public void setDeus(String deus) {
-        this.deus = deus;
-    }
-
     public String getDescricao() {
         return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
     }
 
     public int getResultado() {
@@ -32,5 +27,9 @@ public class Chale {
 
     public void setResultado(int resultado) {
         this.resultado = resultado;
+    }
+
+    public List<Pergunta> getRespostas() {
+        return respostas;
     }
 }

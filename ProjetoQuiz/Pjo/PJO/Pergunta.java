@@ -8,12 +8,12 @@ public class Pergunta {
         this.resposta = resposta;
     }
 
-    public String getPergunta() {
-        return pergunta;
+    public Pergunta(String pergunta) {
+        this.pergunta = pergunta;
     }
 
-    public void setPergunta(String pergunta) {
-        this.pergunta = pergunta;
+    public String getPergunta() {
+        return pergunta;
     }
 
     public int getResposta() {
@@ -23,4 +23,5 @@ public class Pergunta {
     public void setResposta(int resposta) {
         this.resposta = resposta;
     }
+
 }
