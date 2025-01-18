@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Médicos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/Global.css">
+    <link rel="stylesheet" type="text/css" href="CSS/medico.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<link rel="icon" href="FOTOS/logo.png" type="image/x-icon">
+
+<body>
+    <nav id="menu">
+        <div class="menu">
+            <button id="closeMenu">X</button>
+            <a class="btt-menu" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#204051">
+                    <path
+                        d="M186.67-80q-27 0-46.84-19.83Q120-119.67 120-146.67v-600q0-27 19.83-46.83 19.84-19.83 46.84-19.83h56.66V-880h70v66.67h333.34V-880h70v66.67h56.66q27 0 46.84 19.83Q840-773.67 840-746.67v600q0 27-19.83 46.84Q800.33-80 773.33-80H186.67Zm0-66.67h586.66v-420H186.67v420Zm0-486.66h586.66v-113.34H186.67v113.34Zm0 0v-113.34 113.34Z" />
+                </svg>
+                <p>AGENDA</p>
+
+            </a>
+            <a class="btt-menu" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#204051">
+                    <path
+                        d="M146.67-80q-27 0-46.84-19.83Q80-119.67 80-146.67v-466.66q0-27 19.83-46.84Q119.67-680 146.67-680H380v-133.33q0-27 19.83-46.84Q419.67-880 446.94-880h66.12q27.27 0 47.11 19.83Q580-840.33 580-813.33V-680h233.33q27 0 46.84 19.83Q880-640.33 880-613.33v466.66q0 27-19.83 46.84Q840.33-80 813.33-80H146.67Zm0-66.67h666.66v-466.66H580v20q0 29.66-19.83 48.16-19.84 18.5-47.11 18.5h-66.12q-27.27 0-47.11-18.5Q380-563.67 380-593.33v-20H146.67v466.66Zm88-98H474V-260q0-17.67-9.17-31.83Q455.67-306 440.67-312q-28-10.33-46.84-14.17Q375-330 356-330q-20.33 0-41.5 4.5T268.67-312q-15.67 6-24.84 20.17-9.16 14.16-9.16 31.83v15.33Zm330.66-64.66H732v-53.34H565.33v53.34ZM356-362.67q23.33 0 39.67-16.33Q412-395.33 412-418.67q0-23.33-16.33-39.66-16.34-16.34-39.67-16.34-23.33 0-39.67 16.34Q300-442 300-418.67q0 23.34 16.33 39.67 16.34 16.33 39.67 16.33Zm209.33-62H732V-478H565.33v53.33ZM446.67-593.33h66.66v-220h-66.66v220ZM480-380Z" />
+                </svg>
+                <p>MINHAS CONSULTAS</p>
+            </a>
+            <a class="btt-menu" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#204051">
+                    <path
+                        d="M540-80.67q-110.67 0-185.33-77.66Q280-236 280-344.67v-31q-85.33-12-142.67-77.3Q80-518.28 80-606.67V-840h120v-40h66.67v146.67H200v-40h-53.33v166.45q0 69.55 48.66 118.21Q244-440 313.33-440q69.34 0 118-48.67Q480-537.33 480-606.88v-166.45h-53.33v40H360V-880h66.67v40h120v233.33q0 88.39-57.34 153.7-57.33 65.3-142.66 77.3v31q0 81.67 55.16 139.5Q457-147.33 540-147.33q79 0 136.17-57.6 57.16-57.61 57.16-139.89v-73.51q-35-10.67-57.5-40.34-22.5-29.66-22.5-68 0-47.22 33.08-80.27Q719.49-640 766.75-640 814-640 847-606.94q33 33.05 33 80.27 0 38.34-22.5 68Q835-429 800-418.33v73.66q0 110-76.33 187-76.34 77-183.67 77ZM766.55-480q19.78 0 33.28-13.38 13.5-13.39 13.5-33.17t-13.38-33.28q-13.38-13.5-33.17-13.5-19.78 0-33.28 13.38T720-526.78q0 19.78 13.38 33.28 13.39 13.5 33.17 13.5Zm.12-46.67Z" />
+                </svg>
+                <p>MÉDICOS</p>
+            </a>
+            <a class="btt-menu" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#204051">
+                    <path
+                        d="M480-480Zm0 360q-18 0-34.5-6.5T416-146L148-415q-35-35-51.5-80T80-589q0-103 67-177t167-74q48 0 90.5 19t75.5 53q32-34 74.5-53t90.5-19q100 0 167.5 74T880-590q0 49-17 94t-51 80L543-146q-13 13-29 19.5t-34 6.5Zm40.19-513.33q8.48 0 15.48 4.33t12 11l70 104.67h180.75q7.62-18.62 11.44-37.79 3.81-19.17 3.81-38.88-.67-74.33-48.63-128.5-47.97-54.17-119.91-54.17-33.8 0-64.96 13.67Q549-745.33 526-720.33l-27 29q-3.67 4-8.33 6.5-4.67 2.5-10.67 2.5t-11.09-2.43q-5.09-2.42-8.91-6.57l-27-29q-23.18-24.88-54.09-38.94Q348-773.33 314-773.33q-71.71 0-119.52 54.46T146.67-590q0 19.81 3.66 39.07 3.67 19.26 11.1 37.6H360q8.38 0 15.93 4.07 7.54 4.07 11.74 10.59l42.33 64L488-610q3.39-10 12.28-16.67 8.9-6.66 19.91-6.66Zm9.81 108L471.33-350q-3.31 10-12.43 16.67-9.12 6.66-19.9 6.66-8.67 0-15.67-4.33T412-342l-70-104.67H210.67l253 253q4 4 7.7 5.5t8.63 1.5q4.93 0 8.63-1.5 3.7-1.5 7.7-5.5l252-253H600q-8.67 0-15.67-4.33T572-462l-42-63.33Z" />
+                </svg>
+                <p>MEU PLANO</p>
+            </a>
+            <a class="btt-menu" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#204051">
+                    <path
+                        d="M240-80v-172q-57-52-88.5-121.5T120-520q0-150 105-255t255-105q125 0 221.5 73.5T827-615l54 213.67q4.33 15.66-5.67 28.5-10 12.83-26.66 12.83H760v133.33q0 27.5-19.58 47.09Q720.83-160 693.33-160H600v80h-66.67v-146.67h160v-200h112l-42.66-171.66q-23.67-95-102.67-155t-180-60q-122 0-207.67 84.66-85.66 84.67-85.66 206.36 0 62.95 25.71 119.6Q238.1-346.06 285.33-302l21.34 20v202H240Zm256-366.67Zm-50 77.34h66.67l4-46q10.66-2.34 19.81-7.98 9.15-5.64 16.19-12.69L596-420l32-54.67-33.33-26q4-12 4-24.66 0-12.67-4-24.67L628-576l-32-54.67-43.33 16q-7.23-6.79-16.61-12.23-9.39-5.43-19.39-8.43l-4-46H446l-4 46q-10 3-19.39 8.43-9.39 5.44-16.61 12.23l-43.33-16-32 54.67L364-550q-4 12-4 24.67 0 12.66 4 24.66l-33.33 26 32 54.67L406-436q7.04 7.05 16.19 12.69 9.14 5.64 19.81 7.98l4 46Zm33.41-89.34q-27.74 0-47.24-19.42-19.5-19.42-19.5-47.17 0-27.74 19.42-47.24 19.42-19.5 47.16-19.5 27.75 0 47.25 19.42t19.5 47.17q0 27.74-19.42 47.24-19.42 19.5-47.17 19.5Z" />
+                </svg>
+                <p>SUPORTE</p>
+            </a>
+        </div>
+
+        <div class="perfil">
+
+            <a href="perfil.html">
+                <img class="btt-perfil"
+                    src="https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg">
+            </a>
+
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px"
+                    fill="#204051">
+                    <path
+                        d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z" />
+                </svg>
+            </a>
+        </div>
+
+    </nav>
+    <main>
+        <header>
+            <a class="logo" href="inicial.html">
+                <img class="logo-foto" src="FOTOS/logo.png">
+                <h1>CLÍNICA HEALTH CARE</h1>
+            </a>
+            <button id="openMenu">&#9776;</button>
+        </header>
+
+        <section>
+            <div class="caixaPesquisa">
+                <input type="text" id="barraPesquisa" name="barraPesquisa" />
+
+                <svg id="search" class="search" xmlns="http://www.w3.org/2000/svg" height="25px"
+                    viewBox="0 -960 960 960" width="25px" fill="#e8eaed">
+                    <path
+                        d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                </svg>
+
+            </div>
+            <div class="filtro">
+                <select>
+                    <option value="Pediatria">Pediatria</option>
+                    <option value="Psiquiatria">Psiquiatria</option>
+                    <option value="Cardiologia">Cardiologia</option>
+                    <option value="Neurologia">Neurologia</option>
+                    <option value="Ortopedia">Ortopedia</option>
+                </select>
+            </div>
+
+            <fieldset>
+
+                <img class="medico-foto" src="FOTOS/AnaCarolina.jpg">
+                <ul class="informacoes-medico">
+                    <div class="informacoes-medico">
+                        <div class="ordem-medico">
+                            <li>DRA. ANA CAROLINA LIMA</li>
+                            <li>CRM 484526-SP</li>
+                        </div>
+                        <li>Especialidade/Áreas de atuação:</li>
+                        <div class="area-medico">
+                            <li>PEDIATRIA-RQE Nº: 5514</li>
+                            <li class="especialidade-medico">Terapia Intensiva Pediátrica-RQE Nº:0567</li>
+                        </div>
+                        <div class="ordem-medico">
+                            <li class="info-medico">Data de inscrição: 15/05/2013</li>
+                            <li class="info-medico">Primeira inscrição na UF: 15/05/2013</li>
+                        </div>
+                        <div class="ordem-medico">
+                            <li class="info-medico">Inscrição: Principal</li>
+                            <li class="info-medico">Situação: Regular</li>
+                        </div>
+                    </div>
+                    <button>Mais Informações</button>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+
+                <img class="medico-foto" src="FOTOS/Katarina Sanchez.jpg">
+                <ul class="informacoes-medico">
+                    <div class="informacoes-medico">
+                        <div class="ordem-medico">
+                            <li>DRA. KATARINA SANCHEZ</li>
+                            <li>CRM 445682-SP</li>
+                        </div>
+                        <li>Especialidade/Áreas de atuação:</li>
+                        <div class="area-medico">
+                            <li>PSIQUIATRIA-RQE nº:8533</li>
+                            <li class="especialidade-medico">Psiquiatria da Infância e da Adolescência-RQE Nº: 4567</li>
+                        </div>
+                        <div class="ordem-medico">
+                            <li class="info-medico">Data de inscrição: 15/05/2013</li>
+                            <li class="info-medico">Primeira inscrição na UF: 15/05/2013</li>
+                        </div>
+                        <div class="ordem-medico">
+                            <li class="info-medico">Inscrição: Principal</li>
+                            <li class="info-medico">Situação: Regular</li>
+                        </div>
+                    </div>
+                    <button>Mais Informações</button>
+                </ul>
+            </fieldset>
+
+        </section>
+        <footer>
+            <a class="agenda" href="">
+                <p>AGENDE SUA CONSULTA</p>
+            </a>
+            <ul id="footer">
+                <li><a>(11) 12345-6789</a></li>
+                <li><a>@clinicahealthcare</a></li>
+            </ul>
+        </footer>
+    </main>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script type="text/javascript" src="JS/Global.js"></script>
+    <script type="text/javascript" src="JS/medico.js"></script>
+
+</body>
+
+</html>

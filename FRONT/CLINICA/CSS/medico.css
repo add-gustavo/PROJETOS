@@ -1,0 +1,127 @@
+fieldset {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    border: none;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.caixaPesquisa {
+    display: grid;
+    background-color: #ffffff;
+    border-radius: 90px;
+    padding: 5px;
+    place-items: center;
+    grid-template-columns: 95% 5%;
+    width: 70%;
+}
+
+#barraPesquisa {
+    width: 90%;
+    height: 80%;
+    background-color: none;
+    border: none;
+}
+
+.medico-foto {
+    height: 100%;
+    width: 30%;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+ul {
+    display: grid;
+    grid-template-rows: 90% 10%;
+    margin: 5px;
+}
+
+.informacoes-medico {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    color: #3B6978;
+    font-size: 18px;
+    margin: 5px 10px;
+}
+
+button {
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    color: #3B6978;
+    cursor: pointer;
+
+}
+
+.ordem-medico {
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-medico {
+    margin: 15px 30px;
+}
+
+.especialidade-medico {
+    margin: 10px 30px;
+    width: 100%;
+}
+
+.info-medico {
+    display: none;
+}
+
+.filtro {
+    width: 80%;
+}
+
+select {
+    padding: 4px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3B6978;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+@media(max-width: 923px) {
+
+    .caixaPesquisa {
+        width: 80%;
+    }
+
+    .medico-foto {
+        width: 60%;
+        margin: 10px;
+        height: 300px;
+
+    }
+
+    fieldset {
+        flex-wrap: wrap;
+        width: 70%;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .filtro {
+        width: 70%;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 17px;
+    }
+
+
+}
